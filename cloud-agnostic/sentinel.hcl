@@ -84,11 +84,6 @@ policy "require-all-modules-have-version-constraint" {
     enforcement_level = "hard-mandatory"
 }
 
-policy "require-all-providers-have-version-constraint" {
-    source = "./require-all-providers-have-version-constraint.sentinel"
-    enforcement_level = "hard-mandatory"
-}
-
 policy "require-all-resources-from-pmr" {
     source = "./require-all-resources-from-pmr.sentinel"
     enforcement_level = "hard-mandatory"
