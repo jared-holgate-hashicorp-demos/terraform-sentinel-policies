@@ -39,11 +39,6 @@ policy "limit-cost-and-percentage-increase" {
     enforcement_level = "hard-mandatory"
 }
 
-policy "limit-cost-by-workspace-name" {
-    source = "./limit-cost-by-workspace-name.sentinel"
-    enforcement_level = "hard-mandatory"
-}
-
 policy "limit-proposed-monthly-cost" {
     source = "./limit-proposed-monthly-cost.sentinel"
     enforcement_level = "hard-mandatory"
