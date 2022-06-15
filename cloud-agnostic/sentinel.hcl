@@ -54,11 +54,6 @@ policy "prevent-destruction-of-prohibited-resources" {
     enforcement_level = "hard-mandatory"
 }
 
-policy "prevent-non-root-providers" {
-    source = "./prevent-non-root-providers.sentinel"
-    enforcement_level = "hard-mandatory"
-}
-
 policy "prevent-remote-exec-provisioners-on-null-resources" {
     source = "./prevent-remote-exec-provisioners-on-null-resources.sentinel"
     enforcement_level = "hard-mandatory"
